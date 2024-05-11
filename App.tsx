@@ -21,7 +21,11 @@ const App = () => {
     <NavigationContainer>
       <ApolloProvider client={client}>
         <Stack.Navigator>
-          <Stack.Screen name="Home" component={} options={{title: 'Welcome'}} />
+          <Stack.Screen
+            name="Home"
+            component={FlatCardList}
+            options={{title: 'Welcome'}}
+          />
           {/* <SafeAreaView style={style.container}> */}
           {/* <ScrollView> */}
           {/* <FlatCardList /> */}
