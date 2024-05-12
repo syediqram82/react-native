@@ -26,6 +26,11 @@ const App = () => {
             component={FlatCardList}
             options={{title: 'Welcome'}}
           />
+          <Stack.Screen
+            name="Home"
+            component={FlatCardList}
+            options={{title: 'Welcome'}}
+          />
           {/* <SafeAreaView style={style.container}> */}
           {/* <ScrollView> */}
           {/* <FlatCardList /> */}
